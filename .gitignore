@@ -1,0 +1,94 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.iso
+*.img
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# User program binaries
+user/*.o
+user/*.elf
+user/*.bin
+
+# Generated files
+kernel/ramfs_hello.c
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# OS specific
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# QEMU related
+*.qcow2
+*.raw
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Compiled binaries
+*.com
+*.class
+*.dll
+*.dylib
+*.so
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
